@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  background-color: #0C0D19; /* Deeper background for a more luxurious feel */
+  color: #E5E7EB; /* Softer text color for a sleek look */
+  font-family: 'Poppins', sans-serif; /* Modern, elegant sans-serif font */
+  transition: all 0.4s ease; /* Smoother transitions for all elements */
+  margin: 0;
+  padding: 0;
+  line-height: 1.8; /* Increased line spacing for better readability */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 14px; /* Slightly wider for a more prominent look */
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1C2E; /* Darker track to blend with the overall theme */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6366F1, #4F46E5); /* Vibrant gradient */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4338CA; /* Slightly more intense on hover */
+}
+
+/* Lottie Animation Styling */
+.lottie svg {
+  width: 130px;
+  height: 130px;
+  cursor: pointer;
+  transition: transform 0.4s ease, filter 0.4s ease, opacity 0.4s ease;
+  opacity: 0.85; /* Slight transparency for a sophisticated effect */
+}
+
+.lottie svg:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 20px #6366F1); /* Enhanced glow effect */
+  opacity: 1; /* Full opacity on hover */
+}
+
+/* Heading Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #F3F4F6;
+  font-weight: 800;
+  margin-bottom: 1.5rem; /* Increased spacing for better hierarchy */
+  text-transform: uppercase;
+  letter-spacing: 0.08em; /* Slightly increased letter-spacing */
+  transition: color 0.4s ease;
+}
+
+/* Link Styling */
+a {
+  color: #6366F1;
+  text-decoration: none;
+  transition: color 0.4s ease, text-shadow 0.4s ease;
+  text-shadow: 0 2px 4px rgba(99, 102, 241, 0.4); /* More pronounced glow */
+}
+
+a:hover {
+  color: #818CF8;
+  text-shadow: 0 4px 8px rgba(99, 102, 241, 0.6); /* Stronger glow on hover */
+}
+
+/* Button Styling */
+button {
+  background-color: #6366F1;
+  color: #F3F4F6;
+  padding: 14px 28px; /* Larger padding for a premium feel */
+  border-radius: 10px;
+  font-weight: 700;
+  transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 6px 15px rgba(99, 102, 241, 0.4); /* Deeper shadow for emphasis */
+}
+
+button:hover {
+  background-color: #818CF8;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.5); /* More intense shadow on hover */
+}
+
+/* Card Styling */
+.card {
+  background-color: #1A1C2E;
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4); /* Deeper shadow for a floating effect */
+  padding: 28px; /* Luxurious padding for a spacious feel */
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); /* More intense shadow on hover */
+  background-color: #252738; /* Lighter background on hover for contrast */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #0C0D19;
+  color: #E5E7EB;
+  padding: 30px;
+  text-align: center;
+  border-top: 2px solid #1A1C2E;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+footer a {
+  color: #6366F1;
+  text-decoration: none;
+  transition: color 0.4s ease, text-shadow 0.4s ease;
+}
+
+footer a:hover {
+  color: #818CF8;
+  text-shadow: 0 2px 4px rgba(99, 102, 241, 0.4); /* Pronounced glow on hover */
+}
+
+.text-shadow-white {
+  text-shadow: 2px 2px 4px rgba(167, 159, 159, 0.7);
+  color: #E0E2EE; }
+
+
+button {
+  z-index: 10;
+}
+  
