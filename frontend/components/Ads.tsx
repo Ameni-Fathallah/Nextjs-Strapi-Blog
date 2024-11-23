@@ -9,6 +9,7 @@ const Ads = () => {
         </p>
         <button className="mt-6 bg-blue-600 text-white py-3 px-8 rounded-full shadow-lg hover:bg-blue-500 hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1">
           Subscribe Now
+          
         </button>
       </div>
     </div>
