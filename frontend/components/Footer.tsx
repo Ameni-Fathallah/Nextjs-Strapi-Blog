@@ -19,7 +19,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-900 text-white py-10">
+    <footer id="footer" className="bg-gray-900 text-white py-10 mt-20">
       <div className="container mx-auto px-6 lg:px-12">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 space-y-8 md:space-y-0">
@@ -64,8 +64,8 @@ const Footer = () => {
         </div>
 
         {/* Middle Section - Links */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 ">
           <motion.div
             className="text-center md:text-left"
             initial={{ opacity: 0, x: -50 }}
@@ -88,7 +88,7 @@ const Footer = () => {
             transition={{ duration: 1, delay: 0.9 }}
           >
             <h3 className="text-lg font-semibold mb-4 hover:text-white-900 transition-colors duration-300 text-shadow-white">Quick Links</h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm ">
               <li><Link href="/contact" className="hover:text-blue-400 transition-colors duration-300">Contact Us</Link></li>
               <li><Link href="/coming " className="hover:text-blue-400 transition-colors duration-300">Coming soon</Link></li>
               <li><Link href="/FAQ" className="hover:text-blue-400 transition-colors duration-300">FAQ</Link></li>
@@ -100,7 +100,7 @@ const Footer = () => {
 
           <div>
           <motion.div
-                className="text-center md:text-left"
+                className="text-center md:text-left "
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 1.1 }}
@@ -123,7 +123,7 @@ const Footer = () => {
           </motion.div>
           </div>
         </div>
-        <br/>
+        
         {/* Bottom Section */}
         <motion.div
               className="flex justify-center items-center text-center"
@@ -131,7 +131,7 @@ const Footer = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1.3 }}
             >
-              <p className="text-sm text-gray-400">&copy; {year} Your Blog. All rights reserved.</p>
+              <p className="text-sm text-gray-400 mt-12">&copy; {year} Your Blog. All rights reserved.</p>
         </motion.div>
 
       </div>

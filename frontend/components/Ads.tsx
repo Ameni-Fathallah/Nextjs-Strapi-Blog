@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ads = () => {
   return (
-    <div className="container mx-auto xl:max-w-[1180px] flex items-center justify-center pt-[35px]">
+    <div id="subscribe" className="container mx-auto xl:max-w-[1180px] flex items-center justify-center pt-[40px] mt-20 mb-20">
       <div className="w-full max-w-[750px] p-6 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-900 border border-transparent rounded-xl shadow-xl text-center cursor-pointer transition-transform transform hover:scale-105 hover:shadow-2xl">
         <p className="text-xl font-semibold text-white">
           Stay ahead in the tech world! Subscribe to our newsletter for the latest updates and insights.

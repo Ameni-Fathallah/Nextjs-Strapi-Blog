@@ -9,6 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi",
     "deploy": "strapi deploy"
+
+
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.1.3",

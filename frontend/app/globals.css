@@ -31,6 +31,12 @@ body {
   background: #4338CA; /* Slightly more intense on hover */
 }
 
+
+/* In your CSS file */
+.motion-animate {
+  will-change: transform, opacity;
+}
+
 /* Lottie Animation Styling */
 .lottie svg {
   width: 130px;
